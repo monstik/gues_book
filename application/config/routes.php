@@ -1,50 +1,54 @@
 <?php
-return[
+return [
     'admin/add' => [
         'controller' => 'admin',
         'action' => 'add'
     ],
-    'admin/edit/{id:\d+}' =>[
+    'admin/edit/{id:\d+}' => [
         'controller' => 'admin',
         'action' => 'edit'
     ],
-    'admin/delete/{id:\d+}' =>[
+    'admin/delete/{id:\d+}' => [
         'controller' => 'admin',
         'action' => 'delete'
     ],
-    'admin/logout' =>[
+    'admin/logout' => [
         'controller' => 'admin',
         'action' => 'logout'
     ],
-    'admin/login' =>[
+    'admin/login' => [
         'controller' => 'admin',
         'action' => 'login'
     ],
-    'admin/posts/{id:\d+}' =>[
+    'admin/posts/{id:\d+}' => [
         'controller' => 'admin',
         'action' => 'posts'
     ],
-    'admin/posts' =>[
+    'admin/posts' => [
         'controller' => 'admin',
         'action' => 'posts'
     ],
-    'main/index/{page:\d+}' =>[
+    'main/index/{page:\d+}' => [
         'controller' => 'main',
         'action' => 'index'
     ],
-    '' =>[
+    '' => [
         'controller' => 'main',
         'action' => 'index'
     ],
-    'about' =>[
+    'user/userProfile' => [
+        'controller' => 'user',
+        'action' => 'userProfile'
+    ],
+    'about' => [
         'controller' => 'main',
         'action' => 'about'
     ],
-    'contact' =>[
+    'contact' => [
         'controller' => 'main',
         'action' => 'contact'
     ],
-    'post/{id:\d+}' =>[
+    'post/{id:\d+}' => [
         'controller' => 'main',
         'action' => 'post'
     ],
