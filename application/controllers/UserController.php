@@ -14,6 +14,12 @@ class UserController extends Controller
         $this->view->layout = 'user';
     }
 
+    public function loginAction()
+    {
+        $this->view->Render("Вход");
+    }
+
+
     public function userProfileAction()
     {
         $this->view->Render("Профиль пользователя");

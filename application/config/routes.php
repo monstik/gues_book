@@ -40,13 +40,13 @@ return [
         'controller' => 'user',
         'action' => 'userProfile'
     ],
-    'about' => [
-        'controller' => 'main',
-        'action' => 'about'
+    'account/login' => [
+        'controller' => 'account',
+        'action' => 'login'
     ],
-    'contact' => [
-        'controller' => 'main',
-        'action' => 'contact'
+    'account/register' => [
+        'controller' => 'account',
+        'action' => 'register'
     ],
     'post/{id:\d+}' => [
         'controller' => 'main',

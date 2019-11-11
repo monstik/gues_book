@@ -69,19 +69,19 @@ body{
 #mainNav{
     position:absolute;
     border-bottom:1px solid #eee;
-    background-color:#fff;
+    background-color:black;
     font-family:Arial,sans-serif
 }
 #mainNav .navbar-brand{
     font-weight:800;
-    color:#777
+    color:white;
 }
 #mainNav .navbar-toggler{
     font-size:12px;
     font-weight:800;
     padding:13px;
     text-transform:uppercase;
-    color:#777
+    color:white;
 }
 #mainNav .navbar-nav>li.nav-item>a{
     font-size:12px;
@@ -92,7 +92,6 @@ body{
 @media only screen and (min-width:992px){
     #mainNav{
         border-bottom:1px solid transparent;
-        background:0 0
     }
     #mainNav .navbar-brand{
         padding:15px 20px;
@@ -103,7 +102,7 @@ body{
     }
     #mainNav .navbar-nav>li.nav-item>a{
         padding:15px 20px;
-        color:#fff
+        color:#fff;
     }
     #mainNav .navbar-nav>li.nav-item>a:focus,#mainNav .navbar-nav>li.nav-item>a:hover{
         color:rgba(255,255,255,.8)
@@ -119,7 +118,7 @@ body{
         -ms-transform:translate3d(0,0,0);
         -o-transform:translate3d(0,0,0);
         transform:translate3d(0,0,0);
-        -webkit-backface-visibility:hidden
+        -webkit-backface-visibility:hidden;
     }
     #mainNav.is-fixed{
         position:fixed;
@@ -152,9 +151,9 @@ body{
 }
 header.masthead{
     margin-bottom:50px;
-    background:no-repeat center center;
-    background-color:#777;
-    background-attachment:scroll;
+    background: no-repeat center center;
+    background-color: #777;
+    background-attachment: scroll;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -162,7 +161,7 @@ header.masthead{
 }
 header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{
     padding:200px 0 150px;
-    color:#fff
+    color:#fff;
 }
 @media only screen and (min-width:768px){
     header.masthead .page-heading,header.masthead .post-heading,header.masthead .site-heading{

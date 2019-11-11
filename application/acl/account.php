@@ -3,9 +3,8 @@ return [
     'all' => [
         'index',
         'about',
-        'contact',
-        'login',
-        'userProfile'
+        'register',
+        'login'
     ],
     'admin' =>[
         //
